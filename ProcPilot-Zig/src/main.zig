@@ -233,7 +233,7 @@ test "parse proc stat and compute busy percentage" {
 }
 
 test "parse memory info" {
-    const mem = parseMem("MemTotal: 4096000 kB\nMemAvailable: 1024000 kB\n");
+    const mem = parseMem("MemTotal: 4096000 kB\nMemAvailable: 1024000 kB\n") ;
     try std.testing.expectEqual(@as(u64, 4096000), mem.total_kb);
     try std.testing.expectEqual(@as(u64, 1024000), mem.available_kb);
 }
