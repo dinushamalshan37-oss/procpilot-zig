@@ -13,7 +13,7 @@ const MemSample = struct {
 
 const Process = struct {
     pid: u32,
-    name: []const u8,
+    name: []const u8, 
     state: []const u8,
     rss_kb: u64,
 };
