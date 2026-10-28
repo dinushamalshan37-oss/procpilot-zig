@@ -1,7 +1,7 @@
 const std = @import("std");
 const builtin = @import("builtin");
 
-const CpuSample = struct {
+const CpuSample = struct{
     total: u64,
     idle: u64,
 };
