@@ -33,7 +33,7 @@ Linux /proc + /sys
         +--> Optional JSON snapshot
 🚀 Getting Started (After Implementation)
 Prerequisites: Linux and a compatible Zig compiler. The final code will document the supported Zig version.
-git clone https://github.com/YOUR_USERNAME/procpilot-zig.git
+git clone https://github.com/dinusha/procpilot-zig.git
 cd procpilot-zig
 zig build
 zig build run
