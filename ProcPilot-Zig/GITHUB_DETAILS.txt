@@ -1,6 +1,6 @@
 Name: ProcPilot
 Repository: procpilot-zig
-Language: Zig
+Language: Zig 
 GitHub Description:
 Lightweight Linux system monitor built with Zig, featuring CPU usage, RAM, uptime, load averages and top processes.
 Topics: zig, linux, system-monitor, cli, procfs, systems-programming
